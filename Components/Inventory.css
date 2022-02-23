@@ -1,0 +1,13 @@
+.inventorySection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+  overflow: scroll;
+}
+
+.inventoryTitle {
+  grid-column: 1/-1;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}

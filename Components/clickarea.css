@@ -1,0 +1,21 @@
+.imageArea {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.329);
+  padding: 3rem;
+  border-radius: 3rem;
+  box-shadow: 1px 4px 4px 2px rgb(231, 217, 217);
+  transition: all 1s;
+}
+
+.imageArea:active {
+  box-shadow: inset 0px 0px 4px 1px rgb(231, 217, 217);
+}
+
+.enemyPhoto {
+  height: 15rem;
+  max-width: 100%;
+}
+.enemyPhoto:hover {
+  cursor: pointer;
+}

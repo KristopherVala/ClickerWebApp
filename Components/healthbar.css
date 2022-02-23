@@ -1,0 +1,12 @@
+.bar {
+  background-color: red;
+  height: 5rem;
+  transition: all 0.3s;
+}
+
+.outerBar {
+  max-width: 100%;
+  border: 2px solid black;
+  margin-top: 2rem;
+  height: 5.4rem;
+}
